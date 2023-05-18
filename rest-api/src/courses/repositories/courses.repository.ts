@@ -11,6 +11,6 @@ export class CoursesRepository {
   }
 
   async findAll(): Promise<Course[]> {
-    return this.courseModel.all();
+    return this.courseModel.find();
   }
 }
